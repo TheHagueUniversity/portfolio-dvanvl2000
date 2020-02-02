@@ -54,6 +54,10 @@ body {
   background-color: #899966;
 } 
 
+.side-bar {
+
+}
+
 img {
   max-width: 300px;
   padding: 10px;
@@ -116,6 +120,10 @@ header {
   color: #FFF596;
 }
 
+.content-wrap img {
+	float: right;
+}
+
 
 /* Projects
 ------------------------------------*/
@@ -143,9 +151,6 @@ header {
   margin-top: 0;
 }
 
-.project-item img {
-	width: 700px;
-}
 
 
 /* Work Experience
@@ -210,12 +215,15 @@ header {
 ------------------------------------*/
 .column {
 	float: left;
-	width: 50%;
-	padding: 5px;
+	width: auto;
+	padding-left: 250px;
 }
 
 .row { 
-padding: 10px;
+padding: auto;
+float: right;
+padding-right: 50px;
+
 }
 
 .row: :after {
